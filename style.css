@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: cadetblue;
+  font-family: sans-serif, Arial, Helvetica;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  color: aliceblue;
+}
+
+fieldset {
+  background-color: #8c4c4cc0;
+  padding: 0 19px;
+  margin-top: 15px;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.text {
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.moreText {
+  display: none;
+}
+
+.btn-more {
+  margin: 15px 60px;
+  background-color: white;
+  color: black;
+  border: 1px solid yellow;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-more:hover {
+  font-size: large;
+  background-color: black;
+  color: white;
+  border: 2px solid greenyellow;
+}
+
+.text.show-more .moreText {
+  display: inline;
+}
+
+.text.show-more .dots {
+  display: none;
+}
